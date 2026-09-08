@@ -4,3 +4,4 @@ node_modules/
 __pycache__/
 *.pyc
 .env
+ml/data/public_reviews_dataset_cleaned.csv
