@@ -24,9 +24,7 @@ app.include_router(reports_router)
 
 @app.get("/")
 def root():
-    return {
-        "message":"ReviewShield AI Backend Running"
-    }
+    return RedirectResponse(url="/docs")
 
 from app.routes.predict import router as predict_router
 from app.routes.analytics import router as analytics_router
